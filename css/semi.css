@@ -522,6 +522,7 @@
     padding: 3px 16px;
     font-weight: 600;
     transition: .3s;
+     color: black;
    }
    .faqra-container .question .quiz p:hover {
     background-color: rgb(14, 158, 158);
