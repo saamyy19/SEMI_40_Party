@@ -385,39 +385,46 @@ trueAnswer.forEach(function(ele) {
 cart = document.querySelectorAll(".cart");
 reset = document.querySelectorAll(".reset");
 back = document.querySelectorAll(".cart .back");
+front = document.querySelectorAll(".cart .front");
 
-cart.forEach((cart) => {
+front.forEach((front) => {
 
     //Add Click Event
-    cart.addEventListener('click', function () {
+    front.addEventListener('click', function () {
       
-            flipBlock (cart) 
+            flipBlock (front) 
 
                                  
     });
+
+  
+
 });
 
-reset.forEach((reset) => {
+back.forEach((back) => {
 
     //Add Click Event
-    reset.addEventListener('click', function () {
-      
-            resetCard (reset) 
-            
-                                 
-    });
-});
+    back.addEventListener('click', function () {
+    
+          resetCard (back) 
+          
+                               
+      });
+  });
+
+
 
 //Flip block Function
 function flipBlock(ele) {
 
-        ele.classList.add('active'); 
+            ele.parentElement.classList.add('active'); 
+            Swal.fire('بقولك ايه لو عايز تشيل الصح دوس عليها تاني')
+
+        
       
 }
 function resetCard(eleZ) {
 
-        eleZ.parentElement.classList.add("non-active"); 
+        eleZ.parentElement.classList.remove("active"); 
       
 }
-
-
