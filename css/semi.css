@@ -636,7 +636,6 @@
     transition: transform 0.5s ease 0s;
     transform-style: preserve-3d;
     position: relative;
-    margin-top: 2px;
   }
   .faqra-container .amlt-eh .container .cart.active {
     transform: rotateY(180deg);
@@ -685,7 +684,7 @@
   .faqra-container .amlt-eh .container .front .erg3.active,
   .faqra-container .amlt-eh .container .front .hsl,
   .bottom.reset {
-    display: flex;
+    display: none;
   }
   .faqra-container .amlt-eh .container .front .hsl:hover,
   .faqra-container .amlt-eh .container .front .erg3:hover,
@@ -717,9 +716,7 @@
   .faqra-container .amlt-eh {
     gap: 16px!important;
   }
-  .faqra-container .amlt-eh .cart{
-    margin-top: 5px
-    }
+
   .faqra-container .amlt-eh .text {
     font-size: 16px;
     max-width: 380px;
