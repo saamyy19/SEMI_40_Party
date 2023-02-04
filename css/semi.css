@@ -906,6 +906,11 @@
   .prev-fourth {
     right: 17px !important;
   }
+ @media (min-width: 850px) {
+    .faqra-container .fourth .zmaylna p {
+      display: none;
+    }
+  }
   @media (max-width: 750px) {
     /* .nex-fourth,
   .prev-fourth {
