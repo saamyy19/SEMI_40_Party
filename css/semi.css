@@ -879,11 +879,11 @@
   }
   /* ---  */
   figure.zmaylna {
-    width: 1700%;
-    animation: 68s zmaylna infinite;
+    width: 200%;
+    animation: 10s zmaylna infinite;
   }
   .slide.zmaylna {
-    width: 5.88235%;
+    width: 50%;
   }
   /* ---  */
    .faqra-container .fourth .slide img {
@@ -1365,59 +1365,14 @@
   }
 
   @keyframes zmaylna {
-    0%, 3% {
+    0%, 25% {
       left:0;
     }
     
-    5%,8% {
+    50%,75% {
       left:-100%;
     }
     
-    10%, 13% {
-      left:-200%;
-    }
-    15%, 18% {
-      left:-300%;
-    }
-    20%, 23% {
-      left:-400%;
-    }
-    35%, 38% {
-      left:-500%;
-    }
-    40%, 43% {
-      left:-600%;
-    }
-    45%, 48% {
-      left:-700%;
-    }
-    50%, 53% {
-      left:-800%;
-    }
-    55%, 58% {
-      left:-900%;
-    }
-    60%, 63% {
-      left:-1000%;
-    }
-    65%, 68% {
-      left:-1100%;
-    }
-    70%, 73% {
-      left:-1200%;
-    }
-    75%, 78% {
-      left:-1300%;
-    }
-    80%, 83% {
-      left:-1400%;
-    }
-    85%, 88% {
-      left:-1500%;
-    }
-    90%, 93% {
-      left:-1600%;
-    }
     100% {
       left:0;
     }
