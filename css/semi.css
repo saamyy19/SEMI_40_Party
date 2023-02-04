@@ -799,7 +799,7 @@
     font-size: 21px;
     text-align: center;
     font-weight: 600;
-    margin-top: -40px;
+    margin-top: -7px;
   }
   .faqra-container .fourth .osama {
     color: #ffc107;
@@ -829,6 +829,7 @@
   .content > .slider-container {
     /* padding: 20px; */
     overflow: hidden;
+    
   }
   .content > .slider-container:not(:first-child) {
     display: none;
@@ -845,6 +846,7 @@
   figure.zmaylna {
     position: relative;
     left: 0;
+
   }
   .slide.kolya,
   .slide.course,
@@ -938,7 +940,7 @@
     }
     
   .faqra-container .slider-container {
-    height: 262px!important;
+    height: 310px!important;
   }
   .nex-fourth, .prev-fourth {
     top: unset!important;
@@ -947,7 +949,7 @@
   @media (max-width: 370px) {
 
     .faqra-container .fourth .slide img {
-      height: 132px!important;
+      height: 199px!important;
     }
     
  
