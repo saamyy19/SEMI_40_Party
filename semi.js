@@ -456,7 +456,7 @@ tabsArray.forEach((ele) => {
       div.style.display = "none";
     });
 
-    document.querySelector(e.currentTarget.dataset.cont).style.display = "flex";
+    document.querySelector(e.currentTarget.dataset.cont).style.display = "block";
   });
 });
 
